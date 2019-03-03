@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "YT Resize",
+  "description": "Resizes the youtube player box.",
+  "version": "1.0",
+
+  "page_action": {
+    "default_icon": "icon.png"
+  },
+  
+  "background": {
+    "persistent": false,
+    "scripts": ["init.js", "resize.js"]
+  },
+
+  "permissions": [
+    "activeTab",
+    "storage",
+    "declarativeContent"
+  ]
+}
